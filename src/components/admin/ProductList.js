@@ -65,7 +65,7 @@ const ProductList = ({ onUpdateProduct, onDeleteProduct }) => {
                     className={`product-item ${index >= 5 ? 'second-row' : ''}`}
                   >
                     <img
-                      src={'http://localhost:3001/img/' + product.image}
+                      src={'https://twl-back-end123.vercel.app/img/' + product.image}
                       alt="Product Image"
                       className="product-image"
                     />

@@ -73,7 +73,7 @@ const UserPage = () => {
                             {products.map((product) => (
                                 <li key={product._id}>
                                     <div>
-                                        <img src={'https://backend123-twl.vercel.app/img/' + product.image} alt="Product Image" />
+                                        <img src={'https://twl-back-end123.vercel.app/img/' + product.image} alt="Product Image" />
                                     </div>
                                     <div>
                                         <strong>{product.name}</strong> - {product.price}
